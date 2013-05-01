@@ -8,167 +8,83 @@
 \setlength{\headheight}{12pt}   % make room for header
 \usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
 \renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
-\lhead{\hspace*{-\sectionwidth}Brenda Baud} % force lhead all the way left
+\lhead{\hspace*{-\sectionwidth}Patrick Herrmann} % force lhead all the way left
 \rhead{Page \thepage}  % put page number at right
 \cfoot{}  % the footer is empty
 \pagestyle{fancy} % set pagestyle for the document
 
 \begin{document} 
 \thispagestyle{empty} % this page does not have a header
-\name{BRENDA BAUD}
-\address{222 South Main Street\\
-North Adams, MA 01247\\
-(413) 555 - 8610}
+\name{PATRICK HERRMANN}
+\address{375 Highland Blvd\\
+San Luis Obispo, CA 93405\\
+(707) 548 - 9187}
 
 
 \begin{resume}
 \vspace{0.1in}
-\moveleft.5\sectionwidth\centerline{Objective: Position as technical writer or editor.}  
+\moveleft.5\sectionwidth\centerline{Objective: Place job-specific objective line here}  
+ 
+\section{EXPERIENCE} 
+\vspace{0.1in} 
+    {\bf Junior Software Developer at MINDBODY, Inc.,} May 2013 - Present.
+    Work to apply modern best practices to a software development process.
+    Focus on continuous integration and localization.
 
+ 
+    {\bf Automated Test Developer at MINDBODY, Inc.,} October 2011 - April 2013.
+    Develop a test framework (Bumblebee) and apply it to a large, complex software
+    system. Sign off software test engineers to develop test cases using my
+    framework. Regression tests using Selenium.
+
+\section{SPECIAL SKILLS} 
+\vspace{0.1in} 
+    C, Java C\#, HTML, CSS, Javascript, jQuery, Git, Linux, Ruby, Selenium
+    
 \section{EDUCATION}
 \vspace{0.1in} 
  
-    Rensselaer Polytechnic Institute, Troy, NY, Ph.D., 
-    Communications and Rhetoric, 1989 
- 
-    Trinity College, Hartford CT, M.A., English, 1979 
- 
-    Montclair State College, Upper Montclair, NJ, B.A., English, 
-    1968. English Honor Society 
- 
- 
-\section{SPECIAL SKILLS} 
-\vspace{0.1in}
-  {\bf Writing}
-    \begin{itemize} % Use \item[] to prevent a bullet from appearing
-      \item[] Academic papers, technical reports, functional documents, 
-        newsletters, nonfiction articles. Published papers on 
-        technical writing, research in organizational writing. 
-        Wrote computer documentation, including CAD/CAM, PC and 
-        interface material. Produced technical papers on history 
-        of technology; revised tables of contents, reference 
-        material. 
+    {\bf California Polytechnic State University - San Luis Obispo} \\
+    Computer Science, Mathematics, 2010 - 2014
+    
+    
+\section{PROJECTS} 
+\vspace{0.2in}
+   \begin{itemize} % Use \item[] to prevent a bullet from appearing
+      \item[] The following projects represent a sample of past projects I've worked
+      on over the past few years. All of these projects and more can be found on my
+       Github page, \\
+      {\bf https://github.com/patrickherrmann}
       \end{itemize}
-{\bf Editing} 
+  {\bf Bumblebee}
+    \begin{itemize} % Use \item[] to prevent a bullet from appearing
+      \item[] Bumblebee is a .NET layer on top of the Selenium browser automation framework. 
+      It and the accompanying design pattern allow for standardized creation of page objects, 
+      even for dynamic web pages. November 2012 to April 2013.
+
+      \end{itemize}
+{\bf Boggle Analysis} 
        \begin{itemize}
-        \item[] Taught editorial writing courses; trained in editing 
-        techniques (Garrison Institute of Writing); edited 
-        research proposals, promotional material, newsletters.
+        \item[] An effort to find the highest scoring boggle board for a given dictionary of words. This problem is too large to be done through brute force, so I've tried out a few optimization techniques, like genetic programming and simulated annealing. To speed up the solution, scoring a boggle board had to be very fast, so the algorithm and data structures are highly optimized in C. This project was done outside of school and work. November 2012.
+
     \end{itemize}
 
-  {\bf Training and Administration} 
+  {\bf Mandelbrot} 
         \begin{itemize}
-        \item[] Taught technical writing, business writing, upper 
-        division writing courses for engineering, computer 
-        science, management students. Trained teachers in 
-        graduate-level writing course. Led professional 
-        development workshops in business writing to college 
-        administrators. Supervised teaching assistants; 
-        coordinated tutoring network for academic support 
-        services. 
+        \item[] This C program I wrote in Winter 2010 renders high quality images of the Mandelbrot set. The algorithm uses smooth coloring, periodicity checking, main bulb checking, and image resampling. It is only accurate to 'long double' precision. December 2010.
+
        \end{itemize}
 
-   {\bf  Research and Consulting} 
+   {\bf  Siteswap Graphs} 
         \begin{itemize}
-        \item[]  Investigated use of word processors as primary writing 
-        implements in organizational settings. Developed 
-        usability instrument for assessing computer 
-        documentation; researched use of icons in interfaces. 
-        Consulted in use of field methods for organizational 
-        analysis. Provided writing consultations for graduate 
-        research projects. Training in statistical methods in 
-        communications research, introductory course, RPI. 
-        Training in field research techniques, SUNY. 
+        \item[]  A graphical analysis of possible juggling patterns given constraints. Provides a visual way of mapping transitions between complicated patterns. Check out the project on Github for a more in depth explanation. January 2012.
+
        \end{itemize} 
 
-   {\bf Computer Experience} 
+   {\bf Brawl} 
         \begin{itemize}
-        \item[] Courses: Basic, Pascal. Types and Programs: IBM 
-        Mainframe/3081D (MTS: Textform, SPSSX; IBM MINI/360 
-        (GML/SCRIPT, CAD/CAM); IBM PC (Multimate, Wordperfect); 
-        Apple II-Plus (Macwrite, Pagemaker). 
+        \item[] A graphical card game. The game uses my own Java animation framework (called DeepDish, also on Github). It allows for play between any combination of human and computer players. February 2013 - Present.
         \end{itemize}
- 
-\section{EMPLOYMENT} 
-\vspace{0.1in} 
-    {\bf Lecturer,} Department of Language, Literature and 
-    Communication, Rensselaer Polytechnic Institute, Troy, NY 
-    1986-1987 
- 
-    {\bf Teaching Assistant,} Department of Language, Literature and 
-    Communication, Rensselaer Polytechnic Institute  1985-1986 
- 
-    {\bf Instructor and Lecturer,} Department of English and 
-    Communications, North Adams State College, North Adams, MA 
-    1985 - 1986 
- 
-    {\bf Workshop Leader,} North Adams State College, North Adams, MA \\
-    "Composition for Teachers: A Writing Across the Disciplines 
-    Approach." Graduate School of Education, 1986; \\
-    ``Effective Writing for Executives.'' Professional Development 
-    Program, 1985; ``Informative and Persuasive Business Writing.''
-    Winter Study, 1983 
- 
-    {\bf Writing Consultant,} Graduate School of Education, North Adams 
-    State College, North Adams, MA  1985 
- 
-    {\bf Research Assistant,} Chesterwood, Stockbridge, MA  Summer 1985 
- 
-    {\bf Instructor,} Learning Skills Center, North Adams State 
-    College, North Adams, MA  1979 - 1985 
- 
-    {\bf Acting Program Coordinator for Academic Tutoring and 
-    Advising,} Learning Skills Center, North Adams State College, 
-    North Adams, MA  Spring 1985 
- 
-    {\bf English Teacher,} Easthampton High School, Easthampton, MA and 
-    West Orange, NJ.  Chair, English Department evaluation; 
-    member, Alternative Learning Program.  1968 - 1979 
- 
- 
-\section{PROFESSIONAL AFFILIATIONS} 
-\vspace{0.1in} 
-    Society of Technical Communication \\
-    Association of Business Communication \\
-    Modern Language Association \\
-    National Council of Teachers of English \\
-    Conference on College Composition and Communication \\
-    Society of Professional Writing Consultants 
-
-\section{PUBLICATIONS} 
-\vspace{0.1in}
-``Playing to Win,'' {\it Hers, The New York Times Magazine, July 3, 1988} 
-
- 
-``Analyzing Corporate Communications Policies using Ethnographic 
-Methods,'' {\it The Proceedings of the Conference on Corporate 
-Communications}, Fairleigh Dickinson University, Madison, NJ, May 
-1988. 
- 
-``Toward a Cognitive Theory of Visual Processing,'' {\it The Proceedings 
-of the ITCC, Society of Technical Communication}, Philadelphia, 
-PA, May 1988. 
- 
-``Organizational, Interpersonal and Technological Influences on 
-Newspaper Writing, An Ethnographic Study,'' In review. 
- 
-``Combining Elegance and Readability: Walker Gibson's Tough, Sweet 
-and Stuffy,'' {\it IEEE Transactions in Professional Communication}, 
-December 1987. 
- 
-``Walker Gibson's Tough Sweet and Stuffy: A Workshop in Style for 
-Engineers,'' {\it Linking Technology and Users: Conference Record of 
-the IPCC}, October 1986. 
- 
-``That Damn Ram: Hydraulic Power at Chesterwood, 1908-1932,'' 
-Unpublished paper for Chesterwood and the Society for Historic 
-Preservation, 1984. 
- 
-``Sculpture Media,'' Unpublished paper for Chesterwood and the 
-Society of Historical Preservation, 1984. 
- 
-{\it The Chesterwood Pedestal}, Volume 3, 1985, Newsletter of The 
-Society of Historical Preservation, Chesterwood, Stockbridge, MA. 
  
 \end{resume}
 \end{document}
