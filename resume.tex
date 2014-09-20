@@ -1,8 +1,8 @@
 % LaTeX resume using res.cls
 \documentclass{res}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font  
-\setlength{\topmargin}{-0.6in}  % Start text higher on the page 
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\setlength{\topmargin}{-0.6in}  % Start text higher on the page
 \setlength{\textheight}{9.8in}  % increase textheight to fit more on a page
 \setlength{\headsep}{0.2in}     % space between header and text
 \setlength{\headheight}{12pt}   % make room for header
@@ -13,7 +13,7 @@
 \cfoot{}  % the footer is empty
 \pagestyle{fancy} % set pagestyle for the document
 
-\begin{document} 
+\begin{document}
 \thispagestyle{empty} % this page does not have a header
 \name{PATRICK HERRMANN}
 \address{375 Highland Blvd\\
@@ -23,32 +23,31 @@ San Luis Obispo, CA 93405\\
 
 \begin{resume}
 \vspace{0.1in}
-\moveleft.5\sectionwidth\centerline{Objective: Place job-specific objective line here}  
+\moveleft.5\sectionwidth\centerline{Objective: Place job-specific objective line here}
  
-\section{EXPERIENCE} 
-\vspace{0.1in} 
-    {\bf Junior Software Developer at MINDBODY, Inc.,} May 2013 - Present.
+\section{EXPERIENCE}
+\vspace{0.1in}
+    {\bf Software Engineer at MINDBODY, Inc.,} May 2013 - Present.
     Work to apply modern best practices to a software development process.
-    Focus on continuous integration and localization.
+    Focus on continuous integration, scaling, security, and localization.
 
  
     {\bf Automated Test Developer at MINDBODY, Inc.,} October 2011 - April 2013.
-    Develop a test framework (Bumblebee) and apply it to a large, complex software
-    system. Sign off software test engineers to develop test cases using my
-    framework. Regression tests using Selenium.
+    Develop a test framework and apply it to a large, complex software
+    system. Sign off software test engineers to develop test cases using the framework. Regression test using Selenium.
 
-\section{SPECIAL SKILLS} 
-\vspace{0.1in} 
-    C, Java C\#, HTML, CSS, Javascript, jQuery, Git, Linux, Ruby, Selenium
+\section{SKILLS}
+\vspace{0.1in}
+    C, Java, Javascript, HTML, CSS, Git, Linux, Selenium, Haskell
     
 \section{EDUCATION}
-\vspace{0.1in} 
+\vspace{0.1in}
  
     {\bf California Polytechnic State University - San Luis Obispo} \\
-    Computer Science, Mathematics, 2010 - 2014
+    Computer Science, 2010 - 2014
     
     
-\section{PROJECTS} 
+\section{PROJECTS}
 \vspace{0.2in}
    \begin{itemize} % Use \item[] to prevent a bullet from appearing
       \item[] The following projects represent a sample of past projects I've worked
@@ -56,65 +55,35 @@ San Luis Obispo, CA 93405\\
        Github page, \\
       {\bf https://github.com/patrickherrmann}
       \end{itemize}
-  {\bf Bumblebee}
-    \begin{itemize} % Use \item[] to prevent a bullet from appearing
-      \item[] Bumblebee is a .NET layer on top of the Selenium browser automation framework. 
-      It and the accompanying design pattern allow for standardized creation of page objects, 
-      even for dynamic web pages. November 2012 to April 2013.
 
-      \end{itemize}
-{\bf Boggle Analysis} 
+{\bf Boggle Analysis}
        \begin{itemize}
-        \item[] An effort to find the highest scoring boggle board for a given dictionary of words. This problem is too large to be done through brute force, so I've tried out a few optimization techniques, like genetic programming and simulated annealing. To speed up the solution, scoring a boggle board had to be very fast, so the algorithm and data structures are highly optimized in C. This project was done outside of school and work. November 2012.
+        \item[] An effort to find the highest scoring boggle board for a given dictionary of words. This problem is too large to be done through brute force, so I've tried out a few optimization techniques, like genetic programming and simulated annealing. To speed up the solution, scoring a boggle board had to be very fast, so the algorithm and data structures are highly optimized in C. November 2012.
 
     \end{itemize}
 
-  {\bf Mandelbrot} 
+  {\bf Mandelbrot}
         \begin{itemize}
-        \item[] This C program I wrote in Winter 2010 renders high quality images of the Mandelbrot set. The algorithm uses smooth coloring, periodicity checking, main bulb checking, and image resampling. It is only accurate to 'long double' precision. December 2010.
+        \item[] This C program I wrote in Winter 2010 renders high quality images of the Mandelbrot set. The algorithm uses smooth coloring, periodicity checking, main bulb checking, and image resampling. December 2010.
 
        \end{itemize}
 
-   {\bf  Siteswap Graphs} 
+  {\bf Bumblebee}
+    \begin{itemize} % Use \item[] to prevent a bullet from appearing
+      \item[] Bumblebee is a .NET layer on top of the Selenium browser automation framework. It and the accompanying design pattern allow for standardized creation of page objects, even for dynamic web pages. November 2012 to April 2013.
+
+      \end{itemize}
+
+   {\bf  Siteswap Graphs}
         \begin{itemize}
         \item[]  A graphical analysis of possible juggling patterns given constraints. Provides a visual way of mapping transitions between complicated patterns. Check out the project on Github for a more in depth explanation. January 2012.
 
-       \end{itemize} 
+       \end{itemize}
 
-   {\bf Brawl} 
+   {\bf Brawl}
         \begin{itemize}
-        \item[] A graphical card game. The game uses my own Java animation framework (called DeepDish, also on Github). It allows for play between any combination of human and computer players. February 2013 - Present.
+        \item[] A graphical card game. The game uses a homemade Java animation library (called DeepDish, also on Github). It allows for play between any combination of human and computer players. February 2013 - Present.
         \end{itemize}
  
 \end{resume}
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
